@@ -1,0 +1,10 @@
+* SPICE3 file created from ex1.ext - technology: scmos
+
+.option scale=1u
+
+M1000 out in vdd vdd CMOSP w=3 l=2
++  ad=19 pd=18 as=19 ps=18
+M1001 out in gnd gnd CMOSN w=3 l=2
++  ad=19 pd=18 as=19 ps=18
+C0 out gnd 3.0fF
+C1 in gnd 5.8fF
